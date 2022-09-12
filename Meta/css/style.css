@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*{
+    font-family: 'DM Mono', monospace;
+    font-style: normal;
+    font-size: 16px;
+    background-color: black;
+}
+
+header{
+    width: 1280px;
+    margin: auto;
+    border-radius: 0px;
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 40px;
+}
+header nav{
+    display: flex;
+    float: left;
+    color: white;
+    height: 60px;
+  
+    margin-left: 0px;
+    
+}
+
+header nav ul{
+    display: flex;
+    padding-top: 5px;
+}
+
+header nav ul li{
+    width: 120px;
+    list-style: none;
+    position: relative;
+    bottom: 15px;
+
+}
+header nav .frames {
+    width: 100%;
+    display: flex;
+    position: relative;
+    bottom: 5px;
+    margin-left: 530px;
+    padding: 0px;
+    float: left;
+}
+header nav .frames .frames-img {
+    margin: 5px;
+    
+}
+header nav .frames .frames-img .image {
+    margin: 5px;
+	/* padding: 10px 20px; */
+	display: inline-block;
+	
+	box-sizing: border-box;
+}
+header nav ul li a{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: unset;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: white;
+}
+.body .texts{
+   margin-left: 50px;
+   margin-top: 150px;
+}
+.body .texts p {
+    color: white;
+    margin-top: 40px;
+}
+.body .texts .btns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+.body .texts .button .btn {
+    width: 250px;
+    height: 60px;
+    border-radius: 0px;
+    border: unset;
+    outline: unset;
+}
+.body .texts .button .learn {
+    background: #8DFD1B;
+
+
+    text-align: center;
+    letter-spacing: 2.1px;
+    /* text-transform: uppercase; */
+
+    color: black;
+}
+.body .image-body {
+    position: relative;
+    left: 540px;
+    bottom: 460px;
+}
+.body .image-body .image img {
+    width: 800px;
+}
